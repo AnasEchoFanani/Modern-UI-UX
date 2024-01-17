@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
-import { Brand, Cta, Navbar } from './component'
+import { Brand, Cta, Navbar } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
